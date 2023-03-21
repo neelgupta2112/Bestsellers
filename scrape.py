@@ -7,7 +7,7 @@ from nytimesarticle import articleAPI
 logging.basicConfig(filename='nyt_api.log', level=logging.INFO)
 
 # Initialize the API client
-api = articleAPI("YOUR_API_KEY_HERE")
+api = articleAPI("mmjN0edfoSxSC0FtNkzcCAG2MBNjSliB")
 
 # Define the years we want to retrieve data for
 start_year = 1923

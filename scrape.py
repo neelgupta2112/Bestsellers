@@ -26,7 +26,7 @@ for year in range(start_year, end_year + 1):
             # Make the API request
             articles = api.search(q='best sellers', fq={'source':['The New York Times']}, 
                                    begin_date=str(year)+'0101', end_date=str(year)+'1231', 
-                                   sort='newest', page=0, facet_field='week', facet_filter=True, 
+                                   sort='newest', page=0, facet_field='week', 
                                    facet_filter='week:'+str(week))
 
             # Extract the books from the API response
